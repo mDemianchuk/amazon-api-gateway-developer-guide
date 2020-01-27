@@ -125,7 +125,7 @@ With the Lambda function set in the backend, proceed to set up the API\.<a name=
 
    ```
    aws apigateway put-method-response \
-           --region us-west-2
+           --region us-west-2 \
            --rest-api-id te6si5ach7 \ 
            --resource-id 2jf6xt 
            --http-method GET \
@@ -136,7 +136,7 @@ With the Lambda function set in the backend, proceed to set up the API\.<a name=
 
    ```
    aws apigateway put-integration \
-           --region us-west-2
+           --region us-west-2 \
            --rest-api-id vaz7da96z6 \
            --resource-id 2jf6xt \
            --http-method GET \
